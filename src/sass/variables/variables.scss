@@ -1,0 +1,20 @@
+$gray: #5b5b5b;
+$light-gray: #979797;
+$main-font: 'Roboto Condensed', sans-serif;
+$narrow-font: 'Oswald', sans-serif;
+
+
+@mixin menu-search-atts {
+  height: 35px;
+  width: 156px;
+  font-size: 14px;
+  font-family: $main-font;
+  background: white;
+}
+
+@mixin text-on-image {
+  display:inline-block;
+  position:absolute;   
+}
+
+
